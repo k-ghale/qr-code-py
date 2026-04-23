@@ -8,4 +8,5 @@ qr.add_data(website_lisk)
 qr.make()
 
 img = qr.make_image(fill_color="black", back_color="white")
+
 img.save('youtube_img_2.png')
